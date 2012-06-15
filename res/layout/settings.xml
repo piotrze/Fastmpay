@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:id="@+id/passwordLabel"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/password" android:layout_alignBaseline="@+id/entry"
+		android:layout_alignParentLeft="true" />
+	<EditText android:id="@+id/password" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_toRightOf="@id/passwordLabel"
+		android:layout_alignParentTop="true" android:ems="4" android:inputType="numberDecimal" android:maxLength="4" android:hint="@string/passwordHint" />
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/savePassword"
+		android:text="@string/savePassword" android:onClick="onClickSavePassword"></Button>
+</LinearLayout>

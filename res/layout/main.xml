@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/ticketHint" />
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/btnSend20"
+		android:text="@string/btnCall20" android:onClick="onClickBtnSend20"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/btnSend20"
+		android:text="@string/btnCall40" android:onClick="onClickBtnSend40"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/btnSend1Day"
+		android:text="@string/btnCall1Day" android:onClick="onClickBtnSend1Day"></Button>
+</LinearLayout>

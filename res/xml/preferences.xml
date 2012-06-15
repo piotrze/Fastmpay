@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Ustawienia mpay">
+		<EditTextPreference android:title="PIN do mpay"
+			android:summary="Podaj swój PIN(4 cyfry)" android:key="pin"></EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

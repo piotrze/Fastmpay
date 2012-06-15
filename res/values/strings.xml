@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="ticketHint">Wybierz rodzaj biletu który chcesz kupić, następnie w polu hasło wklej zapisany pin.</string>
+	<string name="btnCall20">20 minut</string>
+	<string name="app_name">Fast mpay</string>
+	<string name="btnCall40">40 minut</string>
+	<string name="btnCall1Day">Dobowy</string>
+	<string name="password">Hasło:</string>
+	<string name="savePassword">Zapisz hasło</string>
+	<string name="passwordHint">Podaj tu 4 cyfrowy pin, później będziesz mógł go szybko wkleić</string>
+</resources>
